@@ -5,7 +5,7 @@ int main(){
 
     int age;
     int height;
-    int bou;
+    int bounty;
     cout << "Enter your age: ";
     cin >> age;
     if (age <= 25){
@@ -17,8 +17,8 @@ int main(){
             cout << "Your character = Usopp";
         }else if (height >= 180){
             cout << "Enter your bounty: ";
-            cin >> bou;
-            if (bou <= 1100000000){
+            cin >> bounty;
+            if (bounty <= 1100000000){
                 cout << "Your character = Sanji";
             }else{
                 cout << "Your character = Zoro";
@@ -26,8 +26,8 @@ int main(){
         }
     }else if (age <= 60){
         cout << "Enter your bounty: ";
-        cin >> bou;
-        if (bou > 500000000){
+        cin >> bounty;
+        if (bounty > 500000000){
             cout << "Your character = Jinbe";
         }else{
             cout << "Your character = Franky";
